@@ -57,5 +57,5 @@ PSNR value: 29.865347
 
 Source:
 
-![ESRGAN](https://www.tensorflow.org/hub/tutorials/image_enhancing)
-![EDSR](https://github.com/krasserm/super-resolution)
+[ESRGAN](https://www.tensorflow.org/hub/tutorials/image_enhancing)
+[EDSR](https://github.com/krasserm/super-resolution)
