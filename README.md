@@ -17,17 +17,20 @@ training and validation images of given scale (2, 3, 4 or 8) and downgrade opera
 
 # What is single image super resolution?
 
-Single image super resolution aims to construct a high-resolution image (HR) from a low resolution image (LR). 
+Single image super resolution aims to construct a high-resolution image (HR) from a low resolution image (LR). This is essentially done by upsampling the LR image to HR image. Deep learning models are utilized to perform this upsampling. Loss functions are used to measure reconstruction error and guide the model optimization. 
+
 
 # How to run the models?
 
 Step 1: Create a python virtual environment  
+```
     python -m venv sr
     Scripts\activate 
-
+``` 
 Step 2: install the requirements
+```
     python -m pip install -r requirements.txt 
-
+``` 
 
 Step 3: Run ESRGAN (esrgan.ipynb) or EDSR (example-wdsr.ipynb) or WDSR (example-wdsr.ipynb)
 
@@ -39,11 +42,11 @@ In order to run with your own input, resize the input image to width: 124 and he
 
 # Results of EDSR
 
-![plot](demo\output.png)
+![plot](demo/output.png)
 
-PSNR: 
+PSNR: 5.1907578
 # Results of ESRGAN 
 
-![plot](demo\output_esrgan.png)
+![plot](demo/output_esrgan.png)
 
 PSNR value: 29.865347
