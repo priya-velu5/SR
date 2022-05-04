@@ -39,7 +39,10 @@ Note: You can skip training the models and directly use the model weights.
 ### Test with your own input images
 
 In order to run with your own input, resize the input image to width: 124 and height 118 pixels. 
-
+Store the input image inside the demo folder and run the following:
+```
+resolve_and_plot('demo/<imgfile>')
+```
 ## Results of EDSR
 
 ![plot](demo/output.png)
@@ -50,3 +53,9 @@ PSNR: 5.1907578
 ![plot](demo/output_esrgan.png)
 
 PSNR value: 29.865347
+
+
+Source:
+
+![ESRGAN](https://www.tensorflow.org/hub/tutorials/image_enhancing)
+![EDSR](https://github.com/krasserm/super-resolution)
